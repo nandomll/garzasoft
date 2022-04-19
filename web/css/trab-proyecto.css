@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+/*parte lateral*/
+body{
+    background: #E5E7E9 ;
+}
+
+.sidelbar{
+    width: 17vw;
+    height: 100vh;
+    position: fixed;
+    background: #566573;
+}
+.header{
+    margin-left: 17vw;
+}
+.contenido{
+      margin-left: 17vw;
+}
+.logo h2{
+    font-size: 37px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    padding: 10px 20px 4px 20px;
+        
+}
+.img{
+    padding: 10px 10px 5px 10px;
+    
+}
+.img img{
+    
+    margin: 0px 6px 0px 6px;
+}
+.img .lr{
+   
+   margin: 0px 3px 0px 3px;
+   padding: 6px 2px 6px 2px;
+   font-family: 'Redressed', cursive;
+   font-size: 24px;
+}
+
+.s-menu{
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+}
+.s-menu div a i{
+    font-size: 25px;
+   padding: 7px 5px 0px 5px;
+    margin-left: 10px;
+   
+    
+}
+.s-menu div a{
+    color:white;
+    text-decoration: none;
+}
+.s-menu div a span{
+    font-size: 18px;
+    padding: 5px;
+    
+}
+.s-menu div{
+   padding: 9px;
+   margin-bottom: 3px;
+}
+
+.s-menu div:hover,
+.s-menu div:focus,
+.s-menu div:active{
+    background:#85929E ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 30px 0px 0px 30px;
+    cursor: pointer;
+}
+.s-menu div:active,
+.s-menu div a:focus,
+.s-menu div a:hover{
+   color:#17202A ;
+}
+/*parte horizontal*/
+.header {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+}
+.navbar{
+    height: 11vh
+}
+.submenu{
+    cursor:pointer;
+}
+.submenu a:hover{
+    background: #1F618D;
+    color:white;
+}
+.submenu div:hover{
+      background: #1F618D;
+    color:white;
+}
+/*cuerpo*/
+
+.formulario-agregar{
+    width: 34vw;
+     border: 0.3px solid darkgray;
+
+}
+.table-requerimientos{
+    width: 41vw;
+}
+
+.ma-1{
+    color:#1F618D;
+    
+}
+
+.mb-3 .input-group input {
+   
+    border: none;
+    border-bottom: 1px solid #566573;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.mb-3 .input-group input:focus {
+      outline: none;
+    
+}
