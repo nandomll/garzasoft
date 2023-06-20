@@ -29,7 +29,7 @@ public class conexion {
       public Connection getConnection() {
         return con;
     }
-    
+    // ver conexion
      public static void main(String[] args) {
        conexion c3 = new conexion();
         
