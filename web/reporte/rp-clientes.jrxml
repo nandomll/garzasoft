@@ -380,6 +380,10 @@
 					<pen lineWidth="1.75"/>
 				</graphicElement>
 			</line>
+			<image>
+				<reportElement x="0" y="0" width="98" height="92" uuid="494343c9-6403-43de-a4f7-51aab3f71408"/>
+				<imageExpression><![CDATA["C:\\Users\\HP\\Documents\\NetBeansProjects\\GarzaSoft-p\\web\\reporte\\logo.jpg"]]></imageExpression>
+			</image>
 		</band>
 	</title>
 	<pageHeader>

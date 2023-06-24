@@ -415,7 +415,7 @@
 
                 </div>
              <div class="modal-body pl-3 pr-3 pt-1">
-              <form  action="controladorreportes" method="post" novalidate>
+              <form  action="controladorreportes" method="post" target="_blank" novalidate>
                 <div class="modal-body mr-1  mb-1 ml-1">
 
 
@@ -437,7 +437,7 @@
 
 
 
-                   <button type="submit" name="accion" value="reporte1" class="btn  btn-block mt-4 mb-2 btn-1 text-white" >Generar Reporte</button>
+                   <button type="submit" name="accion"  value="reporte1" class="btn  btn-block mt-4 mb-2 btn-1 text-white" >Generar Reporte</button>
 
 
                  </div>

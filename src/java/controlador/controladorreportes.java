@@ -56,6 +56,7 @@ public class controladorreportes extends HttpServlet {
                      byte[] bytes = JasperRunManager.runReportToPdf(reportfile.getPath(),parametro, cn.getConnection());
                      response.setContentType("application/pdf");
                      response.setContentLength(bytes.length);
+                     response.setHeader("Content-Disposition", "inline; filename=reporte.pdf");
                      ServletOutputStream outputstream = response.getOutputStream();
                      outputstream.write(bytes,0,bytes.length);
                      outputstream.flush();
@@ -86,6 +87,7 @@ public class controladorreportes extends HttpServlet {
                      byte[] bytes = JasperRunManager.runReportToPdf(reportfile.getPath(),parametro, cn.getConnection());
                      response.setContentType("application/pdf");
                      response.setContentLength(bytes.length);
+                     response.setHeader("Content-Disposition", "inline; filename=reporte.pdf");
                      ServletOutputStream outputstream = response.getOutputStream();
                      outputstream.write(bytes,0,bytes.length);
                      outputstream.flush();
@@ -117,6 +119,7 @@ public class controladorreportes extends HttpServlet {
                      byte[] bytes = JasperRunManager.runReportToPdf(reportfile.getPath(),parametro, cn.getConnection());
                      response.setContentType("application/pdf");
                      response.setContentLength(bytes.length);
+                     response.setHeader("Content-Disposition", "inline; filename=reporte.pdf");
                      ServletOutputStream outputstream = response.getOutputStream();
                      outputstream.write(bytes,0,bytes.length);
                      outputstream.flush();
@@ -147,6 +150,7 @@ public class controladorreportes extends HttpServlet {
                      byte[] bytes = JasperRunManager.runReportToPdf(reportfile.getPath(),parametro, cn.getConnection());
                      response.setContentType("application/pdf");
                      response.setContentLength(bytes.length);
+                     response.setHeader("Content-Disposition", "inline; filename=reporte.pdf");
                      ServletOutputStream outputstream = response.getOutputStream();
                      outputstream.write(bytes,0,bytes.length);
                      outputstream.flush();
@@ -176,6 +180,7 @@ public class controladorreportes extends HttpServlet {
                      byte[] bytes = JasperRunManager.runReportToPdf(reportfile.getPath(),parametro, cn.getConnection());
                      response.setContentType("application/pdf");
                      response.setContentLength(bytes.length);
+                     response.setHeader("Content-Disposition", "inline; filename=reporte.pdf");
                      ServletOutputStream outputstream = response.getOutputStream();
                      outputstream.write(bytes,0,bytes.length);
                      outputstream.flush();

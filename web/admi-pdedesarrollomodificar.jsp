@@ -375,7 +375,7 @@
 
                 </div>
              <div class="modal-body pl-3 pr-3 pt-1">
-              <form  action="controladorreportes" method="post" novalidate>
+              <form  action="controladorreportes" method="post" target="_blank" novalidate>
                 <div class="modal-body mr-1  mb-1 ml-1">
 
 
